@@ -1,0 +1,25 @@
+{
+  "name": "profile-cropper-backend",
+  "version": "1.0.0",
+  "description": "This is the backend to fetch the image of encoding  base64 (it uses buffer to create image).",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "Liocat-sp"
+  },
+  "author": "Saurabh Pathak",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "multer": "^1.4.2",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
